@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/BackgroundTLOU.png);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: repeat;
+    box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Secular One', sans-serif;
+}
+
+.active {
+  background-color: darkgreen;
+}
+li a:hover {
+  background-color: grey;
+}
+li:last-child {
+  border-right: none;
+}
+
+.titulo{
+  padding: 100px 150px;  
+  margin: auto;  
+}
+
+.personajes{
+  left: 1150px;
+  bottom:300px;
+  position: relative;
+}
+
+.info{
+  font-family: 'Crimson Text', serif; 
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 850px;
+  position: relative;
+  right: 775px;
+  bottom: 650px;
+  border-radius: 10px;
+}
+
+.container2{
+  height: 60vh;
+  width: 100%;   
+  background-image: url(../images/TLOFTrailer.jpg);
+  background-position: right top;
+  background-repeat: repeat;  
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+.titulo2{
+  background-color: #092502;
+  font-size: 35px;
+  color: white;
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+}
+
+.musica{
+  position: relative;
+  left: 1200px;
+  top: 150px;
+}
+
+.container3{
+  height: 40vh;
+  width: 100%;   
+  background-image: url(../images/BackgroundTLOU.jpg);
+  background-position: right top;
+  background-repeat: repeat;  
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;  
+}
+
+.titulo3{
+  background-color: #092502;
+  font-size: 40px;
+  color: white;
+  position: relative;
+  text-align: center;
+  bottom: 0px;
+}
+.btntrailer{
+  background-color: white;
+  border-radius: 10px;
+  color: #092502;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform:uppercase;
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+.btnjuego{
+  background-color: white;
+  border-radius: 10px;
+  color: #092502;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform:uppercase;
+  position: relative;
+  left: 1000px;
+  top: 100px;
+}

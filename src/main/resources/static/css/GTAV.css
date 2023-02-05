@@ -1,0 +1,208 @@
+*{
+    background-color: #000000;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid white;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Secular One', sans-serif;
+}
+.active {
+  background-color: green;
+}
+li a:hover {
+  background-color: grey;
+}
+li:last-child {
+  border-right: none;
+}
+
+.imageGTAV{
+    width: 2000px;
+}
+
+.fullGTAV{
+    padding-top: 20px;
+}
+
+.gtavLogos{
+    display: flex;
+    margin: 20px;
+}
+
+.textGTAV{
+    color:
+#ffffff;
+font-family:
+ChaletComprime;
+font-size:
+50px;
+font-weight:
+700;
+line-height:
+55px;
+}
+
+.subTextGTAV{
+    color:
+#e8e8e8;
+font-family:
+Chalet;
+font-size:
+20px;
+line-height:
+32px;
+padding-left: 140px;
+}
+
+.buttonGTAV{
+  border: none;
+  color: white;
+  padding: 20px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonGTAV {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+border-radius:
+4px;
+display:
+flex;
+font-family:
+ChaletComprime;
+font-size:
+25px;
+justify-content:
+center;
+line-height:
+25px;
+padding:
+20px 80px;
+text-transform:
+uppercase;
+}
+
+.buttonGTAV:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.fullButtonGTAV{
+    display: flex;
+    padding-left: 100px;
+}
+
+.cod-logo-container{
+align-items:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+line-height:16px;
+}
+
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h1{
+  color: #fff;
+  text-align: center;
+}
+
+.fullFAQ{
+    padding: 90px 0 90px;
+}
+details{
+  background-color: #303030;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+input[type=text], select {
+   color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  color: white;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.bgForm {
+  border-radius: 5px;
+  padding: 20px;
+}

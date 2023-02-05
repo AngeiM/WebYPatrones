@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua ;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid white;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Secular One', sans-serif;
+}
+.active {
+  background-color: green;
+}
+li a:hover {
+  background-color: grey;
+}
+li:last-child {
+  border-right: none;
+}
+.h1{
+    
+}
