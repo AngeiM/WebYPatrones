@@ -3,8 +3,7 @@
 *{
     margin:0;
     padding: 0;
-    font-family: 'Crimson Text', serif;
-
+    font-family: 'Hind Siliguri', sans-serif;
 }
 .container {
     height: 100vh;
@@ -56,27 +55,186 @@ li:last-child {
   margin: auto;  
 }
 
-.personajes{
+.imgEJ{
   left: 1150px;
-  bottom:300px;
+  bottom:296px;
   position: relative;
 }
 
 .info{
+  text-shadow: lightgreen 0px 0px 8px;
+  text-transform:fullsize-kana;
   font-family: 'Crimson Text', serif; 
-  background-color: black;
-  opacity: 0.8;
   color: white;
   font-size: 25px;
-  text-align: center;
-  margin-left: 850px;
+  text-align: left;
+  margin-left: 1250px;
   position: relative;
-  right: 775px;
-  bottom: 650px;
-  border-radius: 10px;
+  right: 1000px;
+  bottom: 750px;
 }
 
 .container2{
+    background-color: black;
+    height: 85vh;
+    width: 100%;   
+}
+.titulo2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: lightgreen 1px 1px 8px;
+    position: relative;
+    top: 10px;
+}
+.personajes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.EllieBox{
+    padding: 5px;
+}
+.JoelBox{
+    padding: 5px;
+}
+.TessBox{
+    padding-top: 40px;
+}
+.TommyBox{
+    padding-top: 40px;
+}
+.zoomEllie{
+  padding: 30px;
+  background-image: url(../images/EllieTLOU.jpg);
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .2s;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.zoomEllie:hover {
+  transform: scale(1.1); 
+}
+.zoomJoel{
+  padding: 30px;
+  background-image: url(../images/JoelTLOU.jpg);
+  border-radius: 15px;  
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .2s;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.zoomJoel:hover {
+  transform: scale(1.1); 
+}
+.zoomTess{
+  padding: 30px;
+  background-image: url(../images/TessTLOU.jpg);
+  border-radius: 15px; 
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .2s;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.zoomTess:hover {
+  transform: scale(1.1); 
+}
+.zoomTommy{
+  padding: 30px;
+  background-image: url(../images/TommyTLOU.jpg);
+  border-radius: 15px; 
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .2s;
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.zoomTommy:hover {
+  transform: scale(1.1); 
+}
+
+.TituloEllie{
+    color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    margin-right:1500px;
+    position: relative;
+    left: 135px;
+    
+}
+.parrafoEllie{
+    color: white;
+    text-align: justify;
+    margin-right: 1350px;
+    position: relative;
+    left: 60px; 
+    padding-top: 5px;
+}
+.TituloJoel{
+    color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    margin-right:1500px;
+    position: relative;
+    left: 540px;
+    bottom: 128px;
+    
+}
+.parrafoJoel{
+    color: white;
+    text-align: justify;
+    margin-right: 1350px;
+    position: relative;
+    left: 465px; 
+    bottom: 128px;
+    padding-top: 5px;
+}
+.TituloTess{
+    color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    margin-right:1450px;
+    position: relative;
+    left: 945px;
+    bottom: 256px;
+    
+}
+.parrafoTess{
+    color: white;
+    text-align: justify;
+    margin-right: 1350px;
+    position: relative;
+    left: 880px; 
+    bottom: 256px;
+    padding-top: 5px;
+}
+.TituloTommy{
+    color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    margin-right:1500px;
+    position: relative;
+    left: 1350px;
+    bottom: 384px;
+    
+}
+.parrafoTommy{
+    color: white;
+    text-align: justify;
+    margin-right: 1350px;
+    position: relative;
+    left: 1295px; 
+    bottom: 384px;
+    padding-top: 5px;
+}
+.container3{
   height: 60vh;
   width: 100%;   
   background-image: url(../images/TLOFTrailer.jpg);
@@ -86,13 +244,16 @@ li:last-child {
   box-sizing: border-box;
   position: relative;
 }
-.titulo2{
+.titulo3{
+  text-shadow: lightgreen 0px 0px 8px;
+  text-transform:fullsize-kana;    
   background-color: #092502;
   font-size: 35px;
   color: white;
   position: relative;
   text-align: center;
   bottom: 100px;
+  font-family: 'Unbounded', cursive;
 }
 
 .musica{
@@ -101,7 +262,7 @@ li:last-child {
   top: 150px;
 }
 
-.container3{
+.container4{
   height: 40vh;
   width: 100%;   
   background-image: url(../images/BackgroundTLOU.jpg);
@@ -109,16 +270,19 @@ li:last-child {
   background-repeat: repeat;  
   background-size: cover;
   box-sizing: border-box;
-  position: relative;  
+  position: relative;
 }
 
-.titulo3{
+.titulo4{
+  text-shadow: lightgreen 0px 0px 8px;
+  text-transform:fullsize-kana;    
   background-color: #092502;
   font-size: 40px;
   color: white;
   position: relative;
   text-align: center;
   bottom: 0px;
+  font-family: 'Unbounded', cursive;  
 }
 .btntrailer{
   background-color: white;
