@@ -1,0 +1,209 @@
+*{
+    background-color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.fullImage{
+    padding-left: 90px;
+      text-align: center;
+}
+
+
+.cod-logo-container{
+align-items:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+line-height:16px;
+}
+
+
+.buttonelden{
+   background-color: #A37709;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform:uppercase;
+}
+.texthalo{
+    color:
+#ffffff;
+font-family:
+monospace;
+font-size:
+18px;
+letter-spacing:
+2px;
+line-height:
+23.4px;
+text-align:
+center;
+text-shadow:
+#ffffff 0px 0px 8px;
+text-transform:
+uppercase;
+}
+
+.zoom {
+  padding: 50px;
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .6s;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+header {
+  text-align: center;
+  padding: 25px;
+  background-color: #A37709;
+  color: white;
+      color:
+#ffffff;
+font-family:
+monospace;
+font-size:
+18px;
+letter-spacing:
+2px;
+line-height:
+23.4px;
+text-align:
+center;
+text-shadow:
+#ffffff 0px 0px 8px;
+text-transform:
+uppercase;
+}
+
+.actualizacionText{
+    color:
+#ffffff;
+font-family:
+stratum2bold;
+font-size:
+64.512px;
+line-height:
+64.512px;
+text-align:
+center;
+text-transform:
+uppercase;
+}
+
+.fullBox{
+    padding-top: 40px;
+}
+
+.fullMap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fullBoxMap2{
+    padding-top: 40px;
+}
+
+.zoom2{
+      padding: 50px;
+  background-image: url(../images/warzoneMap2.jpg);
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .6s;
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+
+
+.slide{
+  padding: 50px;
+  background-image: url(../images/warzoneCarusel.jpg);
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .6s;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.slide2{
+  padding: 50px;
+  background-image: url(../images/slice2.jpg);
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .6s;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.slide3{
+  padding: 50px;
+  background-image: url(../images/slice3.jpg);
+  background-size: cover;
+  background-repeat: none;
+  transition: transform .6s;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.fulSlice{
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+
+
+
