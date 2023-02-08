@@ -2,34 +2,43 @@
     background-color: #000000;
 }
 
+*{
+    background-color: #000000;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
+  background-color: black;
+  top: 0;
+  width: 100%;
 }
 
 li {
+  display: inline;
   float: left;
-  border-right:1px solid #bbb;
-}
-
-li:last-child {
-  border-right: none;
+  border-right: 1px solid white;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
+  font-family: 'Secular One', sans-serif;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+.active {
+  background-color: darkgreen;
+}
+li a:hover {
+  background-color: grey;
+}
+li:last-child {
+  border-right: none;
 }
 
 .fullImage{

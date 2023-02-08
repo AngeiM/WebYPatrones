@@ -1,17 +1,8 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 6 feb 2023, 12:34:36
-    Author     : Marcelo
-*/
 body{
 
     font-family: ''
 
 }
-
 
 .contenedor{
     padding: 60px 0;
@@ -39,20 +30,39 @@ header{
 
 }
 
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  top: 0;
+  width: 100%;
 }
 
-nav > a{
-    color: aliceblue;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
+li {
+  display: inline;
+  float: left;
+  border-right: 1px solid white;
 }
 
-nav > a:hover{
-    text-decoration: underline;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-family: 'Secular One', sans-serif;
+}
+
+.active {
+  background-color: darkred;
+}
+li a:hover {
+  background-color: grey;
+}
+li:last-child {
+  border-right: none;
 }
 
 .wave{
