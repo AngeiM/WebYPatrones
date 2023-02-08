@@ -89,13 +89,13 @@ header .textos-header{
 
 .textos-header h2{
     font-size: 30px;
-    font-weight: 250;
+    font-weight: 200;
     color: #ffffff;
 }
 
 .Contenedor-sobre-el-juego{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .imagen-juego{
@@ -103,7 +103,7 @@ header .textos-header{
 }
 
 .Contenedor-sobre-el-juego .contenido-texto{
-    width: 48%
+    width: 50%
 }
 
 .contenido-texto h3{
@@ -112,8 +112,8 @@ header .textos-header{
 }
 
 .contenido-texto h3 span{
-    background: #eb5757;
-    color: black;
+    background: #00cccc;
+    color: #ffffff;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
